@@ -31,4 +31,4 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Execute Tests
-      run: mvn clean test -Dtests=@featurePetStore
+      run: mvn clean -Dtests=@featurePetStore
